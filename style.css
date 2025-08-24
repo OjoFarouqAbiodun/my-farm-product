@@ -456,6 +456,10 @@ footer {
 .contact-item p {
     color: #fff;
 }
+.contact-item a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .copyright {
     text-align: center;
@@ -463,11 +467,11 @@ footer {
     margin-top: 40px;
 }
 
-.contact-item p:hover {
+/* .contact-item p:hover {
     color: rgb(16, 27, 0);
     cursor: pointer;
     transition: 0.2s ease-in;
-}
+} */
 
 
 @media (max-width: 1200px) {
