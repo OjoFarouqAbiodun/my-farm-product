@@ -2,296 +2,139 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>MY FARM PRODUCT | Welcome</title>
-	<link rel="stylesheet" href="style.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-		integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="icon" type="image/png" href="./images/favi.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap | Welcome 👋</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<header>
-		<div class="header-container" id="header-container">
-			<div class="logo">
-				<img src="./images/nav-logo.png" alt="" />
-			</div>
-			<div class="nav">
-				<div class="navlinks" id="nav-links">
-					<i class="fa-solid fa-xmark" style="color: #000000;" onclick="hideMenu()"></i>
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About Us</a></li>
-						<li><a href="#services">Our Services</a></li>
-						<li><a href="#market">Marketplace</a></li>
-						<li><a href="https://wa.me/+2349069356502">Contact Us</a></li>
-					</ul>
-				</div>
-				<div class="nav-button">
-					<button class="get-started-btn"> <a
-							href="https://docs.google.com/forms/d/e/1FAIpQLSfJlPcIjYgycAno6JOBkr35sDT2_sb5tnOMhgLaK4xUb5v-FQ/viewform?usp=sharing&ouid=113288668496702714964"
-							target="_blank">Get Started</a> </button>
-				</div>
-			</div>
-			<i class="fa-solid fa-bars" style="color: #000000;" onclick="showMenu()"></i>
-		</div>
-	</header>
+    <header>
+        <nav>
+            <div class="logo-links">
+                <div>
+                    <img class="logo" src="./images/logo.svg" alt="">
+                </div>
+                <img class="showMenu" src="./images/icon-menu.svg" alt="" />
+                <ul class="links">
+                    <li> <a href="">Features
+                            <img src="./images/icon-arrow-down.svg" alt="" /></a>
+                        <div class="features-links">
+                            <div class="feature-item">
+                                <img src="./images/icon-todo.svg" alt="">
+                                <p>Todo List</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="./images/icon-calendar.svg" alt="">
+                                <p>Calender</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="./images/icon-reminders.svg" alt="">
+                                <p>Reminders</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="./images/icon-planning.svg" alt="">
+                                <p>Planning</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li> <a href="">Company
+                            <img src="./images/icon-arrow-down.svg" alt="" /></a>
+                        <div class="company-links">
+                            <div class="company-item">
+                                <p>History</p>
+                            </div>
+                            <div class="company-item">
+                                <p>Our Team</p>
+                            </div>
+                            <div class="company-item">
+                                <p>Blog</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li> <a href="">Careers</a> </li>
+                    <li> <a href="">About</a> </li>
+                </ul>
+            </div>
+            <section class="auth-btns">
+                <button class="login-btn">Login</button>
+                <button class="register-btn">Register</button>
+            </section>
+            <div class="mobile">
+                <img class="closeMenu" src="./images/icon-close-menu.svg" alt="" />
+                <ul class="mobile-links">
+                    <li id="feature">
+                        <a href="">Features
+                            <img src="./images/icon-arrow-down.svg" alt="" />
+                        </a>
+                        <div class="mobile-features-links">
+                            <div class="mobile-feature-item">
+                                <img src="./images/icon-todo.svg" alt="">
+                                <p>Todo List</p>
+                            </div>
+                            <div class="mobile-feature-item">
+                                <img src="./images/icon-calendar.svg" alt="">
+                                <p>Calender</p>
+                            </div>
+                            <div class="mobile-feature-item">
+                                <img src="./images/icon-reminders.svg" alt="">
+                                <p>Reminders</p>
+                            </div>
+                            <div class="mobile-feature-item">
+                                <img src="./images/icon-planning.svg" alt="">
+                                <p>Planning</p>
+                            </div>
+                        </div>
+                    </li>
 
-	<div class="hero_section" id="home">
-		<h1>from our hands to your home</h1>
-		<p>
-			join a marketplace that empower's farmers, support susxtainability, and
-			delivers natural goodness straight to your doorstep
-		</p>
-		<button>Buy a farm product</button>
-	</div>
+                    <li id="company">
+                        <a href="">Company
+                            <img src="./images/icon-arrow-down.svg" alt="" />
+                        </a>
+                        <div class="mobile-company-links">
+                            <div class="mobile-company-item">
+                                <p>History</p>
+                            </div>
+                            <div class="mobile-company-item">
+                                <p>Our Team</p>
+                            </div>
+                            <div class="mobile-company-item">
+                                <p>Blog</p>
+                            </div>
+                        </div>
+                    </li>
 
-	<div class="about" id="about">
-		<div class="container">
-			<div class="about-content">
-				<img class="about-image" src="./images/about us img.png" alt="about-us-image" />
-				<div class="about-us-content">
-					<h3 class="about-title">About Us</h3>
-					<p class="our-mission">
-						<b>OUR MISSION IS SIMPLE:</b> We empower hardworking farmers while
-						ensuring you get the best, most natural ingredients for your home.
-						<br />
-						<br />
-						We offer a seamless online marketplace, making it easier than ever
-						to shop directly from trusted farmers and artisanal producers.
-						<br />
-						<br />
-						Join us in supporting local agriculture, promoting healthy
-						living,and making a positive impact — because at My Farm Product,
-						when farmers thrive, we all benefit.
-					</p>
-					<button>Know More</button>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <li> <a href="">Careers</a> </li>
+                    <li> <a href="">About</a> </li>
+                </ul>
+                <section class="mobile-auth-btns">
+                    <button class="login-btn">Login</button>
+                    <button class="register-btn">Register</button>
+                </section>
+            </div>
 
-	<div class="services" id="services">
-		<div class="container">
-			<h3 class="os-title">Our Services</h3>
-			<p class="os-title-subtext">
-				From sourcing the best local produce to delivering it straight to your
-				doorstep, our services ensure you enjoy nature's goodness while
-				supporting the farmers who make it possible.
-			</p>
-			<div class="os-cards">
-				<div class="card">
-					<img src="./images/our service img1.png" alt="fresh-farm-product-image" />
-					<h3 class="os-card-title">FRESH FARM PRODUCTS</h3>
-					<p class="os-card-title-subtext">
-						Get it fresh direct from farmers, no preservative, no sign of
-						spoilage
-					</p>
-				</div>
-				<div class="card">
-					<img src="./images/our service img2.png" alt="product-shopping-image" />
-					<h3 class="os-card-title">PERSONAL SHOPPING</h3>
-					<p class="os-card-title-subtext">
-						We are more or less like a personal shopper taking away the burden
-						of having to go to the market
-					</p>
-				</div>
-				<div class="card">
-					<img src="./images/our service img3.png" alt="home-delivery-image" />
-					<h3 class="os-card-title">HOME DELIVERY</h3>
-					<p class="os-card-title-subtext">
-						Our home delivery is seamless and you get what you order swiftly
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="how-we-work">
-		<div class="container">
-			<h3 class="hww-title">How We Work</h3>
-			<p class="hww-title-subtext">
-				We handle everything from showcasing trusted farmer's product to
-				making your shopping, tracking, and delivery experience seamless, so
-				you can focus on enjoying fresh, quality goods.
-			</p>
-			<div class="hww-cards">
-				<div class="hww-card">
-					<img src="./images/work img1.png" alt="man-holding-fruits" />
-					<h3 class="hww-card-title">Product listing</h3>
-				</div>
-				<div class="hww-card">
-					<img src="./images/work img2.png" alt="man-holding-fruits" />
-					<h3 class="hww-card-title">Shopping</h3>
-				</div>
-				<div class="hww-card">
-					<img src="./images/work img3.png" alt="man-holding-fruits" />
-					<h3 class="hww-card-title">Order tracking</h3>
-				</div>
-				<div class="hww-card">
-					<img src="./images/work img4.png" alt="man-holding-fruits" />
-					<h3 class="hww-card-title">Delivery</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="marketplace" id="market">
-		<button>Explore the maket</button>
-	</div>
-
-	<div class="faq-section">
-		<div class="container">
-			<h3 class="faq-title">FAQs</h3>
-			<p class="faq-title-subtext">Got Questions? We've got fresh answers!</p>
-			<div class="faq-lists">
-				<div class="first-column">
-					<div class="faq">
-						<div class="q">
-							<div class="q-content">
-								<p>What is My Farm Product?</p>
-								<i><i class="fa-solid fa-angle-right"></i></i>
-							</div>
-						</div>
-						<div class="ans">
-							<p>My Farm Product is an online marketplace that connects you
-								directly with local farmers and producers, delivering fresh,
-								high-quality products to your doorstep.</p>
-						</div>
-					</div>
-					<div class="faq">
-						<div class="q">
-							<div class="q-content">
-								<p>How does My Farm Product work?</p>
-								<i><i class="fa-solid fa-angle-right"></i></i>
-							</div>
-						</div>
-						<div class="ans">
-							<p>Browse our platform, select the farm products you want, place
-								your order, and enjoy quick delivery straight from the source.</p>
-						</div>
-					</div>
-					<div class="faq">
-						<div class="q">
-							<div class="q-content">
-								<p>
-									How do I place an order & Is there a minimum order
-									requirement?
-								</p>
-								<i><i class="fa-solid fa-angle-right"></i></i>
-							</div>
-						</div>
-						<div class="ans">
-							<p>Simply create an account, browse the marketplace, add products
-								to your cart, and proceed to checkout.
-								<br />
-								<br />
-								There is no minimum order requirement, allowing you to shop as
-								per your needs.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="second-column">
-					<div class="faq">
-						<div class="q">
-							<div class="q-content">
-								<p>What are the delivery options?</p>
-								<i><i class="fa-solid fa-angle-right"></i></i>
-							</div>
-						</div>
-						<div class="ans">
-							<p>
-								We offer standard, express, and scheduled deliveries. Delivery
-								availability may vary depending on your location.
-							</p>
-
-						</div>
-					</div>
-					<div class="faq">
-						<div class="q">
-							<div class="q-content">
-								<p>Can I track my order?</p>
-								<i><i class="fa-solid fa-angle-right"></i></i>
-							</div>
-						</div>
-						<div class="ans">
-							<p>
-								Yes! Once your order is placed, you'll receive tracking
-								information via email or SMS.
-							</p>
-						</div>
-					</div>
-					<div class="faq">
-						<div class="q">
-							<div class="q-content">
-								<p>How do I become a seller on My Farm Product?</p>
-								<i><i class="fa-solid fa-angle-right"></i></i>
-							</div>
-						</div>
-						<div class="ans">
-							<p>
-								Click on the “Become a Seller” link on our homepage and fill out
-								the registration form. <br />
-								<br />Our team will guide you through the onboarding process.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="pre-footer">
-		<div class="container">
-			<img src="./images/Design.png" alt="design" />
-		</div>
-	</div>
-
-	<footer>
-		<div class="container">
-			<div class="footer-content">
-				<div class="footer-logo">
-					<img src="./images/footer-logo.png" alt="footer-logo" />
-					<p class="footer-logo-subtext">Connecting farmers directly with the marketplace for better
-						accessibility, fair pricing, and a sustainable supply chain.</p>
-				</div>
-				<div class="footer-links">
-					<p class="footer-links-title">LINKS</p>
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About Us</a></li>
-						<li><a href="#services">Our Services</a></li>
-						<li><a href="#market">Marketplace</a></li>
-						<li><a href="https://wa.me/+2349069356502">Contact Us</a></li>
-					</ul>
-				</div>
-				<div class="footer-contact">
-					<p class="footer-links-title">Contact</p>
-					<div class="contact-item">
-						<i><i class="fa-solid fa-phone" style="color: #ffffff;"></i></i>
-						<p> <a href="https://wa.me/+2349069356502">+234 813 465 4312</a> </p>
-					</div>
-					<div class="contact-item">
-						<i><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></i></i>
-						<p> <a href="mailto:myfarmproduct@gmail.com">myfarmproduct@gmail.com</a> </p>
-					</div>
-					<div class="contact-item">
-						<i><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></i></i></i>
-						<p> <a href="https://www.google.com/maps?q=Lagos+Nigeria" target="_blank">Lagos, Nigeria.</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<p class="copyright">© 2025 | My Farm Product | All rights reserved
-			</p>
-		</div>
-
-	</footer>
-	<script src="main.js"></script>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="title">Make <br> remote work</h1>
+            <p class="sub-text">Get your team in sync, no matter your location. Streamline processes, create team
+                rituals, and watch
+                productivity soar.</p>
+            <button class="hero-btn">Learn more</button>
+            <div class="partners">
+                <img src="./images/client-databiz.svg" alt="" />
+                <img src="./images/client-audiophile.svg" alt="" />
+                <img src="./images/client-meet.svg" alt="" />
+                <img src="./images/client-maker.svg" alt="" />
+            </div>
+        </div>
+        <div>
+            <img class="hero-image" src="./images/image-hero-desktop.png" alt="">
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <script src="./main.js"></script>
 </body>
 
 </html>
